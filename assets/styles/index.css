@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(255, 210, 155);
+}
+
+.directors,
+.movies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.directors__header,
+.movies__header,
+.directors__information,
+.movies__list {
+    font-family: 'Sometype Mono', monospace;
+}
+
+.director-li {
+    background-color: bisque;
+}
+
+.director-name {
+    color: brown;
+    font-family: 'Sometype Mono', monospace;
+}
+
+.career-movies {
+    font-family: 'Sometype Mono', monospace;
+}
+
+.career {
+    font-family: 'Sometype Mono', monospace;
+}
+
+.movies {
+    font-family: 'Sometype Mono', monospace;
+}
+
+.filmography {
+    text-decoration: none;
+    color: brown;
+}
